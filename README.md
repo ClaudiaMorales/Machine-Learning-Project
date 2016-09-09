@@ -279,4 +279,25 @@ pml_write_files = function(x){
 
 pml_write_files(predictionsB2)
 ```
+PredictionsB2 as follows:
 
+1.  B 
+2.  A
+3.  B  
+4.  A
+5.  A
+6.  E
+7.  D 
+8.  B
+9.  A
+10. A
+11. B
+12. C
+13. B
+14. A
+15. E
+16. E
+17. A
+18. B
+19. B
+20. B
