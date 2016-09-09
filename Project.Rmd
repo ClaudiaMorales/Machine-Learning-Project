@@ -225,6 +225,8 @@ To view the decision tree with fancy :
 ```{r fig.width=15, fig.height=10}
 fancyRpartPlot(modFitA1)
 ```
+![Decision Tree](Rplot.png) 
+
 
 ##**Predicitng**
 
