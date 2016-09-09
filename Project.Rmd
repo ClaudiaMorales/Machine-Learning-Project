@@ -225,8 +225,6 @@ To view the decision tree with fancy :
 ```{r fig.width=15, fig.height=10}
 fancyRpartPlot(modFitA1)
 ```
-![Decision Tree](Rplot.png) 
-
 
 ##**Predicitng**
 
@@ -271,17 +269,25 @@ For Random Forests we use the following formula, which yielded a much better pre
 predictionsB2 <- predict(modFitB1, testing, type = "class")
 ```
 
-Function to generate files with predictions to submit for assignment
+PredictionsB2 as follows:
 
-```{r}
-pml_write_files = function(x){
-  n = length(x)
-  for(i in 1:n){
-    filename = paste0("problem_id_",i,".txt")
-    write.table(x[i],file=filename,quote=FALSE,row.names=FALSE,col.names=FALSE)
-  }
-}
-
-pml_write_files(predictionsB2)
-```
-
+1.  B 
+2.  A
+3.  B  
+4.  A
+5.  A
+6.  E
+7.  D 
+8.  B
+9.  A
+10. A
+11. B
+12. C
+13. B
+14. A
+15. E
+16. E
+17. A
+18. B
+19. B
+20. B
